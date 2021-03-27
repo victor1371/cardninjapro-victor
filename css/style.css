@@ -4,7 +4,7 @@
 Project:        Casine - Casino and gambling HTML5 Template
 Version:        1.0
 Last change:    11/ 05 /2020
-Primary use:    Casino and gambling. 
+Primary use:    Casino and gambling.
 Author:         Ingenious_team
 ------------------
 
@@ -244,7 +244,7 @@ body {
 
 
 /* ============================
-            common 
+            common
 ========================= */
 
 .hidden {
@@ -799,8 +799,8 @@ nav.navbar .container {
 .menu-inner i.fa-align-right {
     opacity: 0;
 }
-/* ============================= 
-       Banner Css 
+/* =============================
+       Banner Css
 ======================================= */
 
 .main_page {
@@ -919,7 +919,7 @@ nav.navbar .container {
 
 
 /* =====================================
- Counter end 
+ Counter end
 ======================================= */
 
 /* ===========================================================
@@ -1350,7 +1350,7 @@ nav.navbar .container {
     End of Unlock Free spin  part css
 =======================================*/
 /*========================================
-            Casino Jackpots Start 
+            Casino Jackpots Start
 ========================================*/
 .jackpots {
     padding-bottom: 60px;
@@ -2196,7 +2196,7 @@ nav.navbar .container {
 }
 
 /* ==========================================
-          contact us page 
+          contact us page
 ===============================================*/
 .contact-page {
     padding-bottom: 60px;
@@ -2586,11 +2586,11 @@ nav.navbar .container {
     user-select: none;
 }
 
-.player-deck{
+.player-deck {
     background-color: rebeccapurple;
 }
 
-.computer-deck{
+.computer-deck {
     background-color: green;
 }
 
@@ -2626,7 +2626,7 @@ nav.navbar .container {
 .card::after {
     bottom: .5rem;
     right: .5rem;
-    transform: rotate(180deg);    
+    transform: rotate(180deg);
 }
 
 .card.red {
@@ -2642,7 +2642,5 @@ nav.navbar .container {
     position: absolute;
     content: attr(data-value);
     font-size: 1rem;
-    
+
 }
-
-
