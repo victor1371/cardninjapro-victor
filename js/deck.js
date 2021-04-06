@@ -5,11 +5,11 @@ export default class Deck {
     constructor(cards = freshDeck()){
         this.cards = cards;
     }
-    
+
     get numberOfCards(){
         return this.cards.length;
     }
-    
+
     shuffle(){
         for(let i= this.numberOfCards -1; i >0; i--){
             const newIndex = Math.floor(Math.random() * (i + 1));
@@ -18,11 +18,11 @@ export default class Deck {
             this.cards[i] = oldValue;
         }
     }
-    
+
     pop(){
         return this.cards.shift()
     }
-    
+
     push(card){
         this.cards.push(card)
     }
@@ -33,11 +33,11 @@ class Card {
         this.suit = suit;
         this.value = value;
     }
-    
+
     get color(){
         return this.suit === '♣' || this.suit === '♠' ? 'black' : 'red';
     }
-    
+
     getHTML() {
         const cardDiv = document.createElement('div');
         cardDiv.innerText = this.suit;
